@@ -22,4 +22,4 @@ RUN go build -tags "libsqlite3" -o urlshortener main.go
 EXPOSE 8000
 
 # Run the binary
-CMD ["./urlshortener"]
+CMD ["./urlshortener "]
